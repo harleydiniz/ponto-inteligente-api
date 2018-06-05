@@ -175,7 +175,7 @@ public class Funcionario implements Serializable {
 		this.empresa = empresa;
 	}
 
-	@OneToMany(mappedBy="funcionarion", fetch=FetchType.LAZY, cascade=CascadeType.ALL)
+	@OneToMany(mappedBy="funcionario", fetch=FetchType.LAZY, cascade=CascadeType.ALL)
 	public List<Lancamento> getLancamentos() {
 		return lancamentos;
 	}
