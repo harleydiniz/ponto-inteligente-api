@@ -72,6 +72,23 @@
 			<artifactId>spring-security-test</artifactId>
 		</dependency>
 		
+		<!-- Hibernate Validador -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+		
+		<!-- Web -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jdk8</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
